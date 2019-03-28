@@ -10,7 +10,7 @@ Exploring various Machine Learning algorithms on the given Dataset
 <br/> 
 <p> We follow simple steps to solve the problem: </p>
  
- **Step 1: Analyse the data** &nbsp;
+ **Step 1: Analyse the data** <br/>
  a) The dataset set good number of examples for both malignant (1) and benign (0) cases
- 
+ ![alt text](https://github.com/RoyKiran/Breast-Cancer-Detection/images/mb_cancer.PNG)
   
