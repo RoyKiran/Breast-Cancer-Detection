@@ -10,7 +10,7 @@ Exploring various Machine Learning algorithms on the given Dataset
 <br/> 
 <hr>
 <div>
-<p> We follow simple steps to solve the problem: </p>
+<p> Hereby we follow simple steps to solve the problem: </p>
  
  <p>
  <b>Step 1: Analyse the data</b> <br/>
@@ -18,9 +18,9 @@ Exploring various Machine Learning algorithms on the given Dataset
   <img src="https://github.com/RoyKiran/Breast-Cancer-Detection/blob/master/images/mb_cancer.PNG"/>
   <br>
  b) Remove unwanted features - id and Unnamed: 32 
- <br> We can drop least correlated or unwanted features and then train our model accordingly. But since this is a health related dataset and so we are considering that all the features here are of concern in cancer detection. Hence, we don't prefer dropping any of the features here. <br>
+ <br> We can drop least correlated or unwanted features and then train our model accordingly. But since this is a health related dataset and so I'm considering that all the features here are of concern in cancer detection. Hence, we don't prefer dropping any of the features here. <br>
   
- c) Observe corrrelation between the features using using heatmap <br>
+ c) Observe corrrelation between the features using heatmap <br>
   <img src="https://github.com/RoyKiran/Breast-Cancer-Detection/blob/master/images/heatmap.PNG"/>
  </p>
  <p>
