@@ -10,7 +10,15 @@ Exploring various Machine Learning algorithms on the given Dataset
 <br/> 
 <p> We follow simple steps to solve the problem: </p>
  
+ <p>
  **Step 1: Analyse the data** <br/>
- a) The dataset set good number of examples for both malignant (1) and benign (0) cases
- ![alt text](https://github.com/RoyKiran/Breast-Cancer-Detection/images/mb_cancer.PNG)
-  
+ a) The dataset set good number of examples for both malignant (1) and benign (0) cases <br>
+ ![alt text](https://github.com/RoyKiran/Breast-Cancer-Detection/blob/master/images/mb_cancer.PNG)
+  <br>
+ b) Remove unwanted features - id and Unnamed: 32 
+ <br>
+ c) Observe corrrelation between the features using using heatmap <br>
+ ![alt text](https://github.com/RoyKiran/Breast-Cancer-Detection/blob/master/images/heatmap.PNG)
+ </p>
+ 
+ **Step 2: ** <br/>
