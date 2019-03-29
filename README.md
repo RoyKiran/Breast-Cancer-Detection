@@ -18,7 +18,7 @@ Exploring various Machine Learning algorithms on the given Dataset
   <img src="https://github.com/RoyKiran/Breast-Cancer-Detection/blob/master/images/mb_cancer.PNG"/>
   <br>
  b) Remove unwanted features - id and Unnamed: 32 
- <br> We can definately drop least correlated or unwanted features. Since, this is a health related dataset and all the features are of concern in cancer detection. Hence, we don't prefer dropping features here. <br>
+ <br> We can drop least correlated or unwanted features and then train our model accordingly. But since this is a health related dataset and so we are considering that all the features here are of concern in cancer detection. Hence, we don't prefer dropping any of the features here. <br>
   
  c) Observe corrrelation between the features using using heatmap <br>
   <img src="https://github.com/RoyKiran/Breast-Cancer-Detection/blob/master/images/heatmap.PNG"/>
@@ -52,4 +52,12 @@ Exploring various Machine Learning algorithms on the given Dataset
       <li> ExtraTreeClassifier </li></ol>  </li>
    <li> XGBoost - XGBClassifier </li></ul>
  </p>
- </div>
+ <p>
+ b) Tune the selected model <br> 
+ Here we are training our model with below model : (Let me know if any more should be added here)
+<ul><li>LinearSVM (had max accuracy compared to others)</li>
+ <li> SVM (is an easy-to-learn model)</li> <li> GradientBoostingClassifier (just to try boosting algo) </li><li> ExtraTreesClassifier (to try a tree classifier) </li> <li> Xgboost Classifier (is currently too much in talks) </li> </ol>
+</div>
+
+<hr>
+<p>  I have uploaded the script in both py & ipnb formats. You can have a look at any one.</p>
