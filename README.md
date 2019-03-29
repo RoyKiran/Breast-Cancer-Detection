@@ -8,11 +8,13 @@ Exploring various Machine Learning algorithms on the given Dataset
  
 <p>The dataset contains 30 Features with diagnosis as the target field.</p>
 <br/> 
+<hr>
+<div>
 <p> We follow simple steps to solve the problem: </p>
  
  <p>
  <b>Step 1: Analyse the data</b> <br/>
- a) The dataset set good number of examples for both malignant (1) and benign (0) cases <br>
+ a) Check target feature - As seen from the graph below, the dataset has good number of examples for both malignant (1) and benign (0) cases <br>
   <img src="https://github.com/RoyKiran/Breast-Cancer-Detection/blob/master/images/mb_cancer.PNG"/>
   <br>
  b) Remove unwanted features - id and Unnamed: 32 
@@ -24,35 +26,30 @@ Exploring various Machine Learning algorithms on the given Dataset
  <p>
  <b>Step 2: Train your model </b> <br/>
   a) Here we are trying the data for most of the known models. (You can let me know, if you would like anymore to be added here) <br>
-<ul><li> Ensemble Methods </li>
+<ul><li> Ensemble Methods 
   <ol><li> AdaBoostClassifier </li>
       <li> BaggingClassifier </li>
       <li> ExtraTreesClassifier </li>
       <li> GradientBoostingClassifier </li>
-      <li> RandomForestClassifier </li> </ol>
-    </li>
-    <li> Gaussian Processes - GaussianProcessClassifier </li>
+      <li> RandomForestClassifier </li> </ol> </li>
+   <li> Gaussian Processes - GaussianProcessClassifier </li>
    <li> Generalized Linear Model (GLM)
-    <ol><li> LogisticRegressionCV </li>
+     <ol><li> LogisticRegressionCV </li>
         <li> PassiveAggressiveClassifier </li>
         <li> RidgeClassifierCV </li>
         <li> SGDClassifier </li>
-      <li> Perceptron </li> </ol>        
-    </li>
-    <li> Navies Bayes
-  <ol><li> naive_bayes.BernoulliNB </li>
-      <li> naive_bayes.GaussianNB </li></ol>
-    </li> 
+        <li> Perceptron </li> </ol>    </li>     
+   <li> Navies Bayes 
+     <ol><li> naive_bayes.BernoulliNB </li>
+     <li> naive_bayes.GaussianNB </li></ol>  </li>
    <li> Nearest Neighbor - KNeighborsClassifier </li>
-   <li> Support Vector Machines (SVM)
-       <ol><li> SVC </li>
-       <li> NuSVC </li>
-       <li> LinearSVC </li></ol>
-  </li>
-  <li> Trees
-      <ol><li>   tree.DecisionTreeClassifier </li>
-       <li> tree.ExtraTreeClassifier </li></ol> 
-    </li>
-    <li> XGBoost - XGBClassifier() </li></ul>
+   <li> Support Vector Machines (SVM) 
+      <ol><li> SVC </li>
+      <li> NuSVC </li>
+      <li> LinearSVC </li></ol> </li>
+   <li> Trees
+      <ol><li> DecisionTreeClassifier </li>
+      <li> ExtraTreeClassifier </li></ol>  </li>
+   <li> XGBoost - XGBClassifier </li></ul>
  </p>
- 
+ </div>
