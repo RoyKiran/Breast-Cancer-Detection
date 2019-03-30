@@ -11,20 +11,20 @@ Exploring various Machine Learning algorithms on the given Dataset
 <hr>
 <div>
 <p> Hereby we follow simple steps to solve the problem: </p>
- 
+ <p> <b>Step 1: Read the dataset </b></p>
  <p>
- <b>Step 1: Analyse the data</b> <br/>
+ <b>Step 2: Analyse the data</b> <br/>
  a) Check target feature - As seen from the graph below, the dataset has good number of examples for both malignant (1) and benign (0) cases <br>
   <img src="https://github.com/RoyKiran/Breast-Cancer-Detection/blob/master/images/mb_cancer.PNG"/>
   <br>
  b) Remove unwanted features - id and Unnamed: 32 
  <br> We can drop least correlated or unwanted features and then train our model accordingly. But since this is a health related dataset and so I'm considering that all the features here are of concern in cancer detection. Hence, we don't prefer dropping any of the features here. <br>
   
- c) Observe corrrelation between the features using heatmap <br>
+ c) Observe corrrelation between the features and Normalize the dataset <br>
   <img src="https://github.com/RoyKiran/Breast-Cancer-Detection/blob/master/images/heatmap.PNG"/>
  </p>
  <p>
- <b>Step 2: Train your model </b> <br/>
+ <b>Step 3: Train your model </b> <br/>
   a) Here we are trying the data for most of the known models. (You can let me know, if you would like anymore to be added here) <br>
 <ul><li> Ensemble Methods 
   <ol><li> AdaBoostClassifier </li>
