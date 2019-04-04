@@ -68,4 +68,4 @@ Exploring various Machine Learning algorithms on the given Dataset
 </div>
 
 <hr>
-<p>  I have uploaded the script in both py & ipnb formats. You can have a look at any one.</p>
+<p>  You can find the script on <a href="https://www.kaggle.com/roykiran/breast-cancer-detection/">Kaggle </a> as well.</p>
