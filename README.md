@@ -56,8 +56,15 @@ Exploring various Machine Learning algorithms on the given Dataset
  b) Tune the selected model <br> 
  Tune the base model by tuning the parmeters. You can set the value of parameters as much as you want as long as it is within it's required range.
  Here we are training our dataset with below model : (Let me know if any more should be added here)
-<ul><li>LinearSVM (had max accuracy compared to others)</li>
- <li> SVM (is an easy-to-learn model)</li> <li> GradientBoostingClassifier (just to try boosting algo) </li><li> ExtraTreesClassifier (to try a tree classifier) </li> <li> Xgboost Classifier (is currently too much in talks) </li> </ol>
+<ol><li> SVM </li>
+ <li> LinearSVM </li>
+ <li> GaussianProcessClassifier </li>
+ <li> ExtraTreesClassifier </li> 
+ <li> Xgboost Classifier</li> 
+ <li> GaussianNB </li>
+ <li> BaggingClassifier </li>
+ <li> QuadraticDiscriminantAnalysis </li>            
+ </ol>
 </div>
 
 <hr>
