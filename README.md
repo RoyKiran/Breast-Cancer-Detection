@@ -69,3 +69,4 @@ Exploring various Machine Learning algorithms on the given Dataset
 
 <hr>
 <p>  You can find the script on <a href="https://www.kaggle.com/roykiran/breast-cancer-detection/">Kaggle </a> as well.</p>
+<p> Here my aim is to show the various tunning parameters of an algorithm and as and when I get time, i will keep updating them till I find the best one :) </p>
